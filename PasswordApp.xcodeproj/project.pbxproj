@@ -12,6 +12,9 @@
 		1CF5C17F1CA074DA001024EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF5C17D1CA074DA001024EE /* Main.storyboard */; };
 		1CF5C1811CA074DA001024EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF5C1801CA074DA001024EE /* Assets.xcassets */; };
 		1CF5C1841CA074DA001024EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF5C1821CA074DA001024EE /* LaunchScreen.storyboard */; };
+		1CF5C18C1CA0793E001024EE /* TapToLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5C18B1CA0793E001024EE /* TapToLoginViewController.swift */; };
+		1CF5C18E1CA07C87001024EE /* PasswordManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5C18D1CA07C87001024EE /* PasswordManagerViewController.swift */; };
+		1CF5C1901CA07CF8001024EE /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF5C18F1CA07CF8001024EE /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		1CF5C1801CA074DA001024EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CF5C1831CA074DA001024EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CF5C1851CA074DA001024EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF5C18B1CA0793E001024EE /* TapToLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapToLoginViewController.swift; sourceTree = "<group>"; };
+		1CF5C18D1CA07C87001024EE /* PasswordManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordManagerViewController.swift; sourceTree = "<group>"; };
+		1CF5C18F1CA07CF8001024EE /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF5C1901CA07CF8001024EE /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +45,7 @@
 		1CF5C16D1CA074DA001024EE = {
 			isa = PBXGroup;
 			children = (
+				1CF5C18F1CA07CF8001024EE /* LocalAuthentication.framework */,
 				1CF5C1781CA074DA001024EE /* PasswordApp */,
 				1CF5C1771CA074DA001024EE /* Products */,
 			);
@@ -57,6 +65,8 @@
 				1CF5C1791CA074DA001024EE /* AppDelegate.swift */,
 				1CF5C17B1CA074DA001024EE /* ViewController.swift */,
 				1CF5C17D1CA074DA001024EE /* Main.storyboard */,
+				1CF5C18D1CA07C87001024EE /* PasswordManagerViewController.swift */,
+				1CF5C18B1CA0793E001024EE /* TapToLoginViewController.swift */,
 				1CF5C1801CA074DA001024EE /* Assets.xcassets */,
 				1CF5C1821CA074DA001024EE /* LaunchScreen.storyboard */,
 				1CF5C1851CA074DA001024EE /* Info.plist */,
@@ -135,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF5C18C1CA0793E001024EE /* TapToLoginViewController.swift in Sources */,
 				1CF5C17C1CA074DA001024EE /* ViewController.swift in Sources */,
 				1CF5C17A1CA074DA001024EE /* AppDelegate.swift in Sources */,
+				1CF5C18E1CA07C87001024EE /* PasswordManagerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
